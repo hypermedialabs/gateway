@@ -5,7 +5,7 @@ module.exports = async (req, res) => {
 
     // Set CORS headers
     res.setHeader('Access-Control-Allow-Credentials', true);
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3002');
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
 
     // If the request is a pre-flight OPTIONS request, send a 200 response
     if (req.method === 'OPTIONS') {
