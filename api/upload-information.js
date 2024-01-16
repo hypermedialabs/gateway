@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 module.exports = async (req, res) => {
-  const API_KET = process.env.API_KEY;
+  const API_KET = process.env.HYPERMEDIA_API_KEY;
     try {
       // Obtener title y size del body de la solicitud
       const { title, size } = req.body;
