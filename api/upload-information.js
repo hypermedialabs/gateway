@@ -20,7 +20,7 @@ module.exports = async (req, res) => {
       // Obtener title y size del body de la solicitud
       const { title, size } = req.body;
   
-      const response = await axios.post('https://a2a6-190-71-58-251.ngrok-free.app/upload', {title, size}, {
+      const response = await axios.post('https://hypermedia-api-git-feat-uploadtobunny-hypermediavideo.vercel.app/upload', {title, size}, {
           headers: {
               'x-api-key': API_KET
           },
