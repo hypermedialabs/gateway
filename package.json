@@ -1,14 +1,25 @@
 {
-  "name": "server-uploader",
+  "name": "gateway",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serverless gateway library for interfacing with the Hypermedia server. Facilitates client-side file uploads by obtaining necessary credentials from Hypermedia. Designed to seamlessly integrate CORS handling and provide a streamlined approach for secure, direct file uploads from client applications to Hypermedia.",
+  "keywords": [
+    "serverless",
+    "hypermedia",
+    "file-upload",
+    "gateway",
+    "cloud-storage",
+    "nodejs",
+    "api-integration",
+    "cors",
+    "axios",
+    "cloud-functions"
+  ],
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --fix && prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "@hypermedialabs",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.5",
