@@ -1,4 +1,4 @@
-- Quick installation using Vercel (recommended)
+- [Quick installation using Vercel (recommended)](#quick-installation-using-vercel-recommended)
 - _~~Manual installation on your own servers (Under construction)~~_
 
 # Quick installation using Vercel (recommended)
