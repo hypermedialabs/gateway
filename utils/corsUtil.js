@@ -9,8 +9,7 @@
  * @param {object} res - The response object.
  */
 function setCorsHeaders(req, res) {
-  const allowedDomains = process.env.ALLOWED_DOMAINS.split(',');
-  console.log({ allowedDomains });
+  const allowedDomains = process.env.ALLOWED_DOMAINS;
 
   res.setHeader('Access-Control-Allow-Credentials', true);
 
