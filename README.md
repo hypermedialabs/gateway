@@ -2,6 +2,7 @@
 Welcome to Hypermedia Gateway, this is a server that allows you to upload files to the Hypermedia API.
 
 - Why use Hypermedia Gateway?
+- What contains?
 - How it is works?
 - Installation
     - Using Vercel (Recommended)
@@ -16,10 +17,14 @@ Another reason is to avoid CORS problems, Hypermedia Gateway allows you to set u
 
 If you are using Hypermedia Gateway in development environments, please be sure to add `localhost:[PORT]` to the list of allowed domains.
 
+# What contains?
+The repo contains 2 endpoints: `/api/upload-information` and `/api/upload-completed`.
+
+- **upload-information**: This endpoint is used to get the upload information from the Hypermedia API, this is the information that you need to upload files using the [TUS Protocol](https://tus.io/).
+
+- **upload-completed**: This endpoint is used to notify to the Hypermedia API that the upload has been completed, this is necessary to save the file already uploaded into our database and link it with your account.
 
 # How it is works?
-Hypermedia Gateway is a server that allows you to get the upload information from the Hypermedia API, this is the information that you need to upload files using the [TUS Protocol](https://tus.io/).
-
 Here you can see a diagram of how it works:
 
 ```mermaid
