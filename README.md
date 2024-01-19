@@ -1,7 +1,15 @@
-# <center>Hypermedia Gateway</center>
-![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/hypermedialabs)
+<p align="center">
+  <a href="https://hypermedia.link" target="blank"><img src="https://hypermedia.link/logo.svg" width="200" alt="Hypermedia Logo" /></a>
+</p>
 
+  <p align="center">Hypermedia is a web3-based video hosting platform designed for creators and businesses. It simplifies the process of hosting and sharing HD videos, catering to a growing community of users. The platform emphasizes ease of use, allowing users to quickly upload videos either directly or via links from social media sites. It distinguishes itself by providing an ad-free experience, especially beneficial for businesses seeking to organize and present their content without distractions. Hypermedia also offers free video uploads, appealing to a wide range of users from individual creators to larger businesses.</p>
+    <p align="center">
 
+<p align="center"><a href="https://github.com/hypermedialabs/uploader" target="_blank"><img src="https://img.shields.io/static/v1?label=hypermedialabs&message=uploader&color=blue&logo=github" alt="Github repo"/></a> <a href="https://discord.gg/mmGaMPEZ5S" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a> <a href="https://twitter.com/hypermedialabs" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a></p>
+
+***
+
+# Hypermedia Gateway
 
 Welcome to Hypermedia Gateway, this is a server that allows you to upload files to the Hypermedia API.
 
