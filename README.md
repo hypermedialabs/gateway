@@ -77,7 +77,9 @@ For this installation we will have 2 ways to do it, the first one with a button 
 2.  Select your forked repo
     ![enter image description here](https://kpuytupfffedzdqkabsx.supabase.co/storage/v1/object/public/Documentation%20Images/SCR-20240118-qnsh.png)
 
-3.  Finish the whole deployment process in Vercel and then copy the public url from here ![enter image description here](https://kpuytupfffedzdqkabsx.supabase.co/storage/v1/object/public/Documentation%20Images/SCR-20240117-injs.png). This is the URL that you need to paste into [@hypermedialabs/uploader](https://github.com/hypermedialabs/uploader).
+3.  Finish the whole deployment process in Vercel and then copy the public url from here ![enter image description here](https://kpuytupfffedzdqkabsx.supabase.co/storage/v1/object/public/Documentation%20Images/SCR-20240117-injs.png). 
+
+This is the URL that you need to paste into [@hypermedialabs/uploader](https://github.com/hypermedialabs/uploader).
 
 ### Environment Variables
 
