@@ -101,6 +101,7 @@ After deploying the server using Vercel, you need to set up the following enviro
     
 ![enter image description here](https://kpuytupfffedzdqkabsx.supabase.co/storage/v1/object/public/Documentation%20Images/SCR-20240117-iocb.png)
 
+After saved the variables vercel needs to **rebuild** the project.
 
 **Please do not add `localhost` domains in production environments.**
 
