@@ -85,15 +85,13 @@ This is the URL that you need to paste into [@hypermedialabs/uploader](https://g
 
 After deploying the server using Vercel, you need to set up the following environment variables:
 
-- `HYPERMEDIA_API_KEY`: Your API key for Hypermedia services.
-- `ALLOWED_DOMAINS`: A comma-separated list of allowed domains for CORS.
+- `HYPERMEDIA_API_KEY`: Your API key for Hypermedia services. can be created in [Hypermedia Access Keys Section](https://hypermedia.link/account/accesskeys)
+- `ALLOWED_DOMAINS`: A comma-separated list of allowed domains authorized to get the upload information. For example: ["https://my.domain.com"]..
 
-1.  Go to Configuration -> Environment Variables
-    ![enter image description here](https://kpuytupfffedzdqkabsx.supabase.co/storage/v1/object/public/Documentation%20Images/SCR-20240117-iocb.png)
+ Go to `Settings -> Environment Variables` Variables and add the variables that we mentioned before.
+    
+![enter image description here](https://kpuytupfffedzdqkabsx.supabase.co/storage/v1/object/public/Documentation%20Images/SCR-20240117-iocb.png)
 
-2.  `HYPERMEDIA_API_KEY` can be created in [Hypermedia Access Keys Section](https://hypermedia.link/account/accesskeys)
-
-3.  `ALLOWED_DOMAINS` variable which is an array of strings with all domains authorized to get the upload information. For example: ["https://my.domain.com"].
 
 **Please do not add `localhost` domains in production environments.**
 
