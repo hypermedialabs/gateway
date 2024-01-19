@@ -17,10 +17,10 @@ module.exports = async (req, res) => {
   }
 
   try {
-    const { title, size } = req.body;
+    const { tus_file } = req.body;
     const response = await axios.post(
-      'https://api.hypermedia.link/upload',
-      { title, size },
+      'https://api.hypermedia.link/files/upload',
+      { tus_file },
       {
         headers: {
           'x-api-key': API_KEY,

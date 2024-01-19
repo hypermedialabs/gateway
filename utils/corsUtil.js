@@ -1,3 +1,5 @@
+import { removeTrailingSlash } from './';
+
 /**
  * Utility functions for handling CORS in a serverless environment.
  * @module corsUtil
@@ -9,14 +11,23 @@
  * @param {object} res - The response object.
  */
 function setCorsHeaders(req, res) {
-  const allowedDomains = process.env.ALLOWED_DOMAINS;
-
-  res.setHeader('Access-Control-Allow-Credentials', true);
+  const allowedDomains = JSON.parse(process.env.ALLOWED_DOMAINS);
 
   const origin = req.headers.origin;
-  if (allowedDomains.includes(origin)) {
-    res.setHeader('Access-Control-Allow-Origin', origin);
+  if (!origin) {
+    return;
   }
+
+  const normalizedOrigin = removeTrailingSlash(origin);
+  res.setHeader('Access-Control-Allow-Credentials', true);
+
+  allowedDomains.forEach((domain) => {
+    const normalizedDomain = removeTrailingSlash(domain);
+
+    if (normalizedOrigin === normalizedDomain) {
+      res.setHeader('Access-Control-Allow-Origin', origin);
+    }
+  });
 }
 
 /**
