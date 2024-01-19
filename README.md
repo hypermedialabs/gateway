@@ -120,3 +120,15 @@ Self host is allowed but make sure to follow the next steps:
     npm install
     ```
 3.  Create a `.env` file in the root of the project and add the variables that we mentioned before.
+
+## Contributing
+
+Contributions to Client Uploader are welcome! Please read [Contributing](CONTRIBUTING.md) for details.
+
+## Code of Conduct
+
+All contributors are expected to adhere to the project's Code of Conduct. Please read [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+
+## License
+
+Hypermedia Gateway is MIT licensed.
