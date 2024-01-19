@@ -1,4 +1,8 @@
-# Hypermedia Gateway
+# <center>Hypermedia Gateway</center>
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/hypermedialabs)
+
+
+
 Welcome to Hypermedia Gateway, this is a server that allows you to upload files to the Hypermedia API.
 
 - Why use Hypermedia Gateway?
